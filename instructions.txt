@@ -1,2 +1,36 @@
+
+Review Website
 1. can't use mobile phone/ lorem ipsum,
-2. normally 6 reviews
+2. normally (min 6) reviews, review image optional, homepage reviews 3,
+    * review should have name, description, fontawesome or react icon(rating) (Review page)
+3. 404 page for invalid link(route)
+4. enough commit (min 6)
+5. error check for reloading page
+6. chart (min 2) using data.json(provided) (Dashboard page) with tooltip
+7. website title should be changed (favicon optional)
+
+Bonus: 
+1. Readme file info: Website link(live), repo link, type what I did in this project with  bullet point (min 4)
+* project name andk link
+2. Destructuring, meaningful names
+3. Homepage review and review page reviews should be from single load (custom hook)
+4. 3 question(min 2) ans in 5-10 line (Blog page)
+    a. what is context api?
+    b. what is semantic tag ?
+    c. what's the difference between inline and inline block
+
+Optional: 
+1. Active route
+2. Responsive
+
+
+
+https://classroom.github.com/a/8blYLhL7
+
+
+
+.
+
+ডেপ্লয় রাউটার ওয়েবসাইট 
+
+ড্র্যাগ এন্ড ড্রপ করে netlify তে রিলিজ দিলে react রাউটার সরাসরি কাজ করবে না। সেটা করার জন্য তোমার build ফোল্ডার ড্র্যাগ করে ড্রপ করার আগে একটা ফাইল তৈরি করে নিতে হবে। সেই ফাইল এর নাম হবে: _redirects আর তারমধ্যে জাস্ট এক লাইন থাকবে। সেখানে লেখা থাকবে: /* /index.html 200 তারপর এই ফাইল সহ ডেপ্লয় করলেই হবে। 
