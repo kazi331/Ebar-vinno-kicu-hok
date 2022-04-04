@@ -1,3 +1,4 @@
+https://github.com/ProgrammingHero1/product-analysis-website
 
 Review Website
 1. can't use mobile phone/ lorem ipsum,
@@ -34,3 +35,5 @@ https://classroom.github.com/a/8blYLhL7
 ডেপ্লয় রাউটার ওয়েবসাইট 
 
 ড্র্যাগ এন্ড ড্রপ করে netlify তে রিলিজ দিলে react রাউটার সরাসরি কাজ করবে না। সেটা করার জন্য তোমার build ফোল্ডার ড্র্যাগ করে ড্রপ করার আগে একটা ফাইল তৈরি করে নিতে হবে। সেই ফাইল এর নাম হবে: _redirects আর তারমধ্যে জাস্ট এক লাইন থাকবে। সেখানে লেখা থাকবে: /* /index.html 200 তারপর এই ফাইল সহ ডেপ্লয় করলেই হবে। 
+
+
