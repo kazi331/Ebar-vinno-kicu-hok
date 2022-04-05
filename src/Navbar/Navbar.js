@@ -5,7 +5,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="bg-gray-200">
-      <nav className="flex items-center justify-between mb-12 bg-gray-200 p-6 text-xl max-w-7xl mx-auto">
+      <nav className="flex items-center justify-between sticky top-0 mb-12 bg-gray-200 p-6 text-xl max-w-7xl mx-auto">
         <Link className="logo text-green-600 font-bold text-3xl" to="/">
           Vinno Kichu
         </Link>
