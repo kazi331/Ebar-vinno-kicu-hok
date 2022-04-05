@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: start;
+}
+.avatar {
+  width: 10%;
+  max-width: 140px;
+}
+.avatar img {
+  max-width: 80px;
+  width: 90%;
+  margin: auto;
+}
+.review {
+  width: 90%;
+  text-align: left;
+}
+.review h4 {
+  margin-bottom: 20px;
+}
+.review p {
+  max-width: 800px;
+}
+@media only screen and (max-width: 568px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .review,
+  .avatar {
+    width: 100%;
+  }
+}

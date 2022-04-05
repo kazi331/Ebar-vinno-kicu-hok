@@ -7,7 +7,7 @@ import Dashboard from "./Dashboard/Dashboard";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gray-50">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

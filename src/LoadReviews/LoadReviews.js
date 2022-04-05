@@ -12,7 +12,7 @@ const LoadReviews = () => {
   }, []);
   console.log(reviews);
   return (
-    <div>
+    <div className="grid grid-cols-1 gap-4 mb-12 bg-gray-50">
       {reviews.map((review) => (
         <Reviews key={review.id} review={review} />
       ))}
