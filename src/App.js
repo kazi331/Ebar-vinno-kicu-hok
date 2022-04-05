@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./Home/Home";
-import LoadReviews from "./LoadReviews/LoadReviews";
-import Navbar from "./Navbar/Navbar";
 import Dashboard from "./Dashboard/Dashboard";
+import Home from "./Home/Home";
+import Navbar from "./Navbar/Navbar";
+import ReviewPage from "./ReviewPage/ReviewPage";
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/reviews" element={<LoadReviews />} />
+        {/* <Route path="/reviews" element={<LoadReviews />} /> */}
+        <Route path="/reviews" element={<ReviewPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </div>

@@ -10,10 +10,10 @@ const LoadReviews = (props) => {
         setReviews(data);
       });
   }, []);
-const quantity = props.quantity;
+  const quantity = props.quantity;
   return (
     <div className="grid grid-cols-1 gap-4 mb-12 bg-gray-50">
-      {reviews.slice(5, quantity ).map((review) => (
+      {reviews.slice(0, quantity).map((review) => (
         <Reviews key={review.id} review={review} />
       ))}
     </div>
