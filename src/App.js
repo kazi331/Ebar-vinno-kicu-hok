@@ -16,7 +16,7 @@ function App() {
         <Route path="/reviews" element={<ReviewPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
