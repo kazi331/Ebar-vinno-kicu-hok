@@ -12,6 +12,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import './Dashboard.css'
 
 const Dashboard = () => {
   const [data, setData] = useState([]);
@@ -27,13 +28,13 @@ const Dashboard = () => {
   return (
     <div className="w-11/12 mx-auto">
       <h2 className="text-2xl font-bold border-b-green-600 border-b-2 w-6/12 mx-auto my-4 mb-12 p-4">
-        Visitors status
+        Book Sales status
       </h2>
       <div className="charts flex flex-col items-center gap-8 p-8 mb-12">
         <div className="linechart">
           <LineChart
-            width={700}
-            height={300}
+            width={600}
+            height={250}
             data={data}
             margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
           >
@@ -48,7 +49,7 @@ const Dashboard = () => {
         </div>
 
         <div className="radialchart">
-          <BarChart width={700} height={250} data={data}>
+          <BarChart width={600} height={250} data={data}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="month" />
             <YAxis />
@@ -61,7 +62,7 @@ const Dashboard = () => {
         </div>
 
         <div className="composedchart">
-          <ComposedChart width={700} height={250} data={data}>
+          <ComposedChart width={600} height={250} data={data}>
             <XAxis dataKey="month" />
             <YAxis />
             <Tooltip />

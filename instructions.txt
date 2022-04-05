@@ -12,7 +12,7 @@ Review Website
 
 Bonus: 
 1. Readme file info: Website link(live), repo link, type what I did in this project with  bullet point (min 4)
-* project name andk link
+* project name and link
 2. Destructuring, meaningful names
 3. Homepage review and review page reviews should be from single load (custom hook)
 4. 3 question(min 2) ans in 5-10 line (Blog page)
