@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import logo from './logo.png';
 
 const Navbar = () => {
   return (
     <div className="bg-gray-200">
-      <nav className="flex items-center justify-between sticky top-0 mb-12 bg-gray-200 p-6 text-xl max-w-7xl mx-auto">
+      <nav className="flex items-center justify-between sticky top-0 mb-12 bg-gray-200 p-4 px-8 text-xl max-w-7xl mx-auto">
         <Link className="logo text-green-600 font-bold text-3xl" to="/">
-          Vinno Kichu
+         
+          <img src={logo} className=" h-24" alt="Arif Azad" />
         </Link>
         <div className="menu flex gap-4 text-green-900">
           <Link to="/">Home</Link>

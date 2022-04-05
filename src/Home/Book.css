@@ -6,9 +6,7 @@
 .book .info {
   width: 50%;
 }
-/* .book .image{
-    width: 50%;
-} */
+
 .book img {
   max-width: 300px;
   width: 90%;

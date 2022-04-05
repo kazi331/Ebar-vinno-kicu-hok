@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Book.css";
 import book from "./ebar-vinno-kichu-hok.jpg";
 
@@ -10,7 +11,7 @@ const Book = () => {
       </h2>
       <div className="book">
         <div className="info pr-4 lg:pr-16">
-          <p className="text-left text-normal text-gray-500">
+          <p className="text-left text-normal text-gray-500 mb-8">
             প্রতিদিন একটা একঘেয়েমি চক্রে কেটে যাচ্ছে জীবনের প্রতিটি মুহূর্ত।
             মাঝে মাঝে আফসোস লাগে—এভাবে একটা জীবন চলতে পারে? এভাবেই কি ক্ষয়ে
             যাওয়ার কথা আস্ত একটা জীবন? কী পাওয়ার বদলে কী হারাচ্ছি জীবন থেকে?
@@ -26,6 +27,12 @@ const Book = () => {
             উপহার দেবে। জীবনের এক নতুন উপাখ্যান রচনায় বইটি হতে পারে আপনার
             নিত্যদিনের সাথি।
           </p>
+          <Link
+            className="bg-[#1A703F] text-white py-2 px-12 float-left rounded shadow-lg"
+            to="/reviews"
+          >
+            বিস্তারিত জানুন{" "}
+          </Link>
         </div>
         <div className="image">
           <img src={book} alt="Ebar vinno kichu hok" />

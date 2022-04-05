@@ -1,21 +1,21 @@
 https://github.com/ProgrammingHero1/product-analysis-website
 
 Review Website
-1. can't use mobile phone/ lorem ipsum,
-2. normally (min 6) reviews, review image optional, homepage reviews 3,
-    * review should have name, description, fontawesome or react icon(rating) (Review page)
-3. 404 page for invalid link(route)
-4. enough commit (min 6)
-5. error check for reloading page
-6. chart (min 2) using data.json(provided) (Dashboard page) with tooltip
-7. website title should be changed (favicon optional)
+1. can't use mobile phone/ lorem ipsum, - done
+2. normally (min 6) reviews, review image optional, homepage reviews 3, 
+    * review should have name, description, fontawesome or react icon(rating) (Review page) - done
+3. 404 page for invalid link(route) - done
+4. enough commit (min 6) - done
+5. error check for reloading page - done
+6. chart (min 2) using data.json(provided) (Dashboard page) with tooltip - done
+7. website title should be changed (favicon optional) - done
 
 Bonus: 
-1. Readme file info: Website link(live), repo link, type what I did in this project with  bullet point (min 4)
+1. Readme file info: Website link(live), repo link, type what I did in this project with  bullet point (min 4) - done 
 * project name and link
-2. Destructuring, meaningful names
-3. Homepage review and review page reviews should be from single load (custom hook)
-4. 3 question(min 2) ans in 5-10 line (Blog page)
+2. Destructuring, meaningful names - done 
+3. Homepage review and review page reviews should be from single load (custom hook) - pertially 
+4. 3 question(min 2) ans in 5-10 line (Blog page) - pertially 
     a. what is context api?
     b. what is semantic tag ?
     c. what's the difference between inline and inline block
