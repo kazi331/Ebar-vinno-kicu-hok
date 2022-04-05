@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link className="logo text-green-600 font-bold text-3xl" to="/">
           Vinno Kichu
         </Link>
-        <div className="menu flex gap-4">
+        <div className="menu flex gap-4 text-green-900">
           <Link to="/">Home</Link>
           <Link to="/reviews">Reviews</Link>
           <Link to="/dashboard">Dashboard</Link>
