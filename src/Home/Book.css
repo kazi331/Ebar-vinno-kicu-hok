@@ -30,6 +30,8 @@
   }
   .pr-4 {
     padding: 30px;
+    color: #19894848;
   }
 }
 @media only screen and (max-width: 768px) {}
+

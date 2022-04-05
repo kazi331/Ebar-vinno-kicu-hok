@@ -14,17 +14,17 @@ Bonus:
 1. Readme file info: Website link(live), repo link, type what I did in this project with  bullet point (min 4) - done 
 * project name and link
 2. Destructuring, meaningful names - done 
-3. Homepage review and review page reviews should be from single load (custom hook) - pertially 
-4. 3 question(min 2) ans in 5-10 line (Blog page) - pertially 
+3. Homepage review and review page reviews should be from single load (custom hook) -  
+4. 3 question(min 2) ans in 5-10 line (Blog page) -  
     a. what is context api?
     b. what is semantic tag ?
     c. what's the difference between inline and inline block
 
 Optional: 
 1. Active route
-2. Responsive
+2. Responsive - done
 
-
+........... rating ----, Destructuring
 
 https://classroom.github.com/a/8blYLhL7
 https://github.com/ProgrammingHero1/product-analysis-website

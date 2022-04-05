@@ -28,7 +28,7 @@ const Book = () => {
             নিত্যদিনের সাথি।
           </p>
           <Link
-            className="bg-[#1A703F] text-white py-2 px-12 float-left rounded shadow-lg"
+            className="bg-green-600 text-white py-2 px-12 float-left rounded shadow-lg"
             to="/reviews"
           >
             বিস্তারিত জানুন{" "}
