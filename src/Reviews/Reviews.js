@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillStar } from "react-icons/ai";
 import "./Reviews.css";
 
 const Reviews = ({ review }) => {
@@ -12,7 +13,16 @@ const Reviews = ({ review }) => {
           {review.name} <span className="text-sm ml-4">{review.date}</span>{" "}
         </h4>
         <p>{review.review}</p>
-        <span className="text-sm">Rating: {review.rating}</span>
+        <div className="text-sm flex items-center gap-4 mt-4">
+          <div className="star flex">
+            <AiFillStar />
+            <AiFillStar />
+            <AiFillStar />
+            <AiFillStar />
+            <AiFillStar />
+          </div>
+          <div className="rate-num">{review.rating}</div>
+        </div>
       </div>
     </div>
   );

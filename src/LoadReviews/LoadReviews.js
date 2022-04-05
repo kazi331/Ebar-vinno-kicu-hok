@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Reviews from "../Reviews/Reviews";
 
-const LoadReviews = () => {
+const LoadReviews = (props) => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
     fetch("reviews.json")
@@ -10,10 +10,10 @@ const LoadReviews = () => {
         setReviews(data);
       });
   }, []);
-  console.log(reviews);
+const quantity = props.quantity;
   return (
     <div className="grid grid-cols-1 gap-4 mb-12 bg-gray-50">
-      {reviews.map((review) => (
+      {reviews.slice(5, quantity ).map((review) => (
         <Reviews key={review.id} review={review} />
       ))}
     </div>
